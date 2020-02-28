@@ -1,0 +1,30 @@
+main {
+    width: 1000px;
+    height: 530px;
+    background: #FFF;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 2px;
+    padding: 30px 20px;
+    margin-right: 300px;
+}
+
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: center;
+
+  }
+  
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+    width: 200px;
+    height: 78px;
+}
+
+input {
+    width: 50px;
+}

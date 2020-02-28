@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+#pageContainer {
+    
+}
+
+html, body, #root {
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+body {
+    background-image: url("./img/madeira.jpg");
+    background-repeat: no-repeat;
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, button, label, td {
+    font-family: Roboto, sans-serif;
+}
+
+#bottomAd {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#sliderAd {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    background-color: blue;
+}
